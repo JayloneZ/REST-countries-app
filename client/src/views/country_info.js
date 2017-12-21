@@ -11,11 +11,11 @@ CountryInfo.prototype.render = function (country) {
 	const countryName = this.createListItem('Name', country.name);
 	const countryRegion = this.createListItem('Region', country.region);
 	const countrySubregion = this.createListItem('Subregion', country.subregion);
-	const countryCapital = this.createListItem('Capital', country.capital);
+	// const countryCapital = this.createListItem('Capital', country.capital);
 	this.ul.appendChild(countryName);
 	this.ul.appendChild(countryRegion);
 	this.ul.appendChild(countrySubregion);
-	this.ul.appendChild(countryCapital);
+	// this.ul.appendChild(countryCapital);
 }
 
 CountryInfo.prototype.createListItem = function (label, content) {
