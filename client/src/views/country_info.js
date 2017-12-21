@@ -5,6 +5,7 @@ const CountryInfo = function () {
 CountryInfo.prototype.render = function (country) {
 	console.log(country);
   // TODO: Render country info
+  this.ul.innerText = ''
 	const countryName = this.createListItem('Name', country.name);
 	const countryRegion = this.createListItem('Region', country.region);
 	const countrySubregion = this.createListItem('Subregion', country.subregion);
