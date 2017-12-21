@@ -4,6 +4,8 @@ const CountryInfo = function () {
 
 CountryInfo.prototype.render = function (country) {
   // TODO: Render country info
+  
+  ul.appendChild(li);
 }
 
 CountryInfo.prototype.createListItem = function (label, content) {
